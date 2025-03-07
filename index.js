@@ -10,6 +10,10 @@ app.get('/',(req,res) => {
     res.status(200).send({messsage:"UP and Runnig"})
 })
 
+app.get('/add',(req,res) => {
+    console.log("Base UR addL");
+    res.status(200).send({messsage:"ADD URL"})
+})
 
 
 app.listen(3000,()=>{
